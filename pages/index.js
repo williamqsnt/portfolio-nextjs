@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section style={{backgroundColor : 'rgb(10, 25, 47)', opacity : 0.8, zIndex : 5, height : '80px', width : '100%', position : 'fixed'}}>
+      <section style={{backgroundColor : 'rgb(10, 25, 47)', opacity : 1, zIndex : 5, height : '80px', width : '100%', position : 'fixed'}}>
 
         <div style={{width : '100%', height : '100%', display : 'flex', justifyContent : 'space-between'}}>
         <Image src={logo} width={70} style={{marginLeft : '1em', marginTop : '1em'}} />

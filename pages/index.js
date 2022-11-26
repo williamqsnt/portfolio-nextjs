@@ -3,6 +3,11 @@ import Image from 'next/image'
 import Link from 'next/link';
 import { useState } from 'react'
 import styles from '../styles/Home.module.css'
+import desktop from '../public/assets/desktop.png'
+import logo from '../public/assets/logo.png'
+
+
+
 
 export default function Home() {
 
@@ -19,9 +24,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section style={{backgroundColor : 'rgb(10, 25, 47)', opacity : 0.8, height : '80px', width : '100%', position : 'fixed'}}>
-        <div style={{width : '100%', height : '100%', display : 'flex', justifyContent : 'flex-end'}}>
+      <section style={{backgroundColor : 'rgb(10, 25, 47)', opacity : 0.8, zIndex : 5, height : '80px', width : '100%', position : 'fixed'}}>
+
+        <div style={{width : '100%', height : '100%', display : 'flex', justifyContent : 'space-between'}}>
+        <Image src={logo} width={70} style={{marginLeft : '1em', marginTop : '1em'}} />
           <button onClick={()=> setMenu(true)} style={{display : 'flex', alignItems : 'center', justifyContent : 'center', width : '80px', backgroundColor : 'unset', border : 'none'}}><p style={{fontSize : '3.5em', color : 'white'}}>☰</p></button>
+          
         </div>
         {menu &&(
           <div style={{position :'absolute', top : '0px', width : '100%'}}>
@@ -41,6 +49,17 @@ export default function Home() {
           </div>
         )}
         
+      </section>
+
+      <section className={styles.center} style={{height : '100vh', width :'100%'}}>
+        <div style={{display : 'flex', alignItems : 'center', flexDirection : 'column', justifyContent : 'center', height : '100%'}}>
+          <Image className="desktop" src={desktop} width={320} />
+          <div>
+            <h2 style={{color :'rgb(73, 242, 202)', fontSize : '2.5em', fontFamily : 'monospace'}}>Je suis William,</h2>
+            <h1 style={{fontSize : '3.2em'}}>DÉVELOPPEUR <br/><b style={{fontWeight : 'lighter'}}>FRONT-END</b></h1>
+          </div>
+          
+        </div>
       </section>
 
     </div>

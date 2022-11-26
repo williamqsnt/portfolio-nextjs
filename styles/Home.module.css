@@ -4,3 +4,16 @@
     font-weight: bolder;
     color : rgb(73, 242, 202)
 }
+
+
+
+.center img{
+    animation : moveimg 3.5s infinite;
+  }
+
+@keyframes moveimg{
+    0%{ position : relative; bottom : 30px}
+    50%{ position : relative; bottom : 0px}
+    100%{ position : relative; bottom : 30px}
+}
+  

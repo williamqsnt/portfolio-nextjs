@@ -67,7 +67,7 @@ export default function Home() {
             
 
             <div style={{textAlign : 'center'}}>
-              <h3>J'offre mes services pour intégrer <br/> l'<b style={{color : 'rgb(73,242,202'}}>interface</b>, le <b style={{ color : 'rgb(73, 242, 202)'}}>design</b> et le <b style={{color : 'rgb(73, 242, 202)'}}>SEO</b> de<br/> votre entreprise.</h3>
+              <h3>J'offre mes services pour intégrer <br/> l&apos;<b style={{color : 'rgb(73,242,202'}}>interface</b>, le <b style={{ color : 'rgb(73, 242, 202)'}}>design</b> et le <b style={{color : 'rgb(73, 242, 202)'}}>SEO</b> de<br/> votre entreprise.</h3>
             </div>
 
           </div>

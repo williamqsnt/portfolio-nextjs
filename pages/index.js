@@ -27,7 +27,7 @@ export default function Home() {
       <section style={{backgroundColor : 'rgb(10, 25, 47)', opacity : 1, zIndex : 5, height : '80px', width : '100%', position : 'fixed'}}>
 
         <div style={{width : '100%', height : '100%', display : 'flex', justifyContent : 'space-between'}}>
-        <Image src={logo} width={50} style={{marginLeft : '1em', marginTop : '1em'}} />
+        <Image src={logo} alt="logo" width={50} style={{marginLeft : '1em', marginTop : '1em'}} />
           <button onClick={()=> setMenu(true)} style={{display : 'flex', alignItems : 'center', justifyContent : 'center', width : '80px', backgroundColor : 'unset', border : 'none'}}><p style={{fontSize : '3.5em', color : 'white'}}>☰</p></button>
           
         </div>
@@ -53,7 +53,7 @@ export default function Home() {
 
       <section className={styles.center} style={{height : '100vh', width :'100%'}}>
         <div style={{display : 'flex', alignItems : 'center', flexDirection : 'column', justifyContent : 'center', height : '100%'}}>
-          <Image className="desktop" src={desktop} width={150} />
+          <Image className="desktop" alt="bg desktop" src={desktop} width={150} />
           <div>
             <h2 style={{color :'rgb(73, 242, 202)', fontSize : '2em', fontFamily : 'monospace'}}>Je suis William,</h2>
             <h1 style={{fontSize : '2.2em'}}>DÉVELOPPEUR <br/><b style={{fontWeight : 'lighter'}}>FRONT-END</b></h1>
@@ -67,7 +67,7 @@ export default function Home() {
             
 
             <div style={{textAlign : 'center'}}>
-              <h3 style={{}}>J'offre mes services pour intégrer <br/> l'<b style={{color : 'rgb(73,242,202'}}>interface</b>, le <b style={{ color : 'rgb(73, 242, 202)'}}>design</b> et le <b style={{color : 'rgb(73, 242, 202)'}}>SEO</b> de<br/> votre entreprise.</h3>
+              <h3>J'offre mes services pour intégrer <br/> l'<b style={{color : 'rgb(73,242,202'}}>interface</b>, le <b style={{ color : 'rgb(73, 242, 202)'}}>design</b> et le <b style={{color : 'rgb(73, 242, 202)'}}>SEO</b> de<br/> votre entreprise.</h3>
             </div>
 
           </div>

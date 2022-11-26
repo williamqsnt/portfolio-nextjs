@@ -53,7 +53,7 @@ export default function Home() {
 
       <section className={styles.center} style={{height : '100vh', width :'100%'}}>
         <div style={{display : 'flex', alignItems : 'center', flexDirection : 'column', justifyContent : 'center', height : '100%'}}>
-          <Image className="desktop" src={desktop} width={320} />
+          <Image className="desktop" src={desktop} width={240} />
           <div>
             <h2 style={{color :'rgb(73, 242, 202)', fontSize : '2.5em', fontFamily : 'monospace'}}>Je suis William,</h2>
             <h1 style={{fontSize : '3.2em'}}>DÉVELOPPEUR <br/><b style={{fontWeight : 'lighter'}}>FRONT-END</b></h1>
